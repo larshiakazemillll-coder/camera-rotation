@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="data" output_port_id="data" />
+		<IR name="data" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="_minusscalar0" output_port_id="_minusscalar0" />
+		<IR name="_minusscalar0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_1_batchnorm" output_port_id="conv_1_batchnorm" />
+		<IR name="conv_1_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_1_relu" output_port_id="conv_1_relu" />
+		<IR name="conv_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_2_batchnorm" output_port_id="conv_2_batchnorm" />
+		<IR name="conv_2_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_2_relu" output_port_id="conv_2_relu" />
+		<IR name="conv_2_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14054" output_port_id="conv_3_dw_conv2d" />
+		<IR name="Multiply_14054" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_3_dw_batchnorm" output_port_id="conv_3_dw_batchnorm" />
+		<IR name="conv_3_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_3_dw_relu" output_port_id="conv_3_dw_relu" />
+		<IR name="conv_3_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_3_batchnorm" output_port_id="conv_3_batchnorm" />
+		<IR name="conv_3_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_3_relu" output_port_id="conv_3_relu" />
+		<IR name="conv_3_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14068" output_port_id="conv_4_dw_conv2d" />
+		<IR name="Multiply_14068" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_4_dw_batchnorm" output_port_id="conv_4_dw_batchnorm" />
+		<IR name="conv_4_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_4_dw_relu" output_port_id="conv_4_dw_relu" />
+		<IR name="conv_4_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_4_batchnorm" output_port_id="conv_4_batchnorm" />
+		<IR name="conv_4_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_4_relu" output_port_id="conv_4_relu" />
+		<IR name="conv_4_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14082" output_port_id="conv_5_dw_conv2d" />
+		<IR name="Multiply_14082" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_5_dw_batchnorm" output_port_id="conv_5_dw_batchnorm" />
+		<IR name="conv_5_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_5_dw_relu" output_port_id="conv_5_dw_relu" />
+		<IR name="conv_5_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_5_batchnorm" output_port_id="conv_5_batchnorm" />
+		<IR name="conv_5_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_5_relu" output_port_id="conv_5_relu" />
+		<IR name="conv_5_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14096" output_port_id="conv_6_dw_conv2d" />
+		<IR name="Multiply_14096" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_6_dw_batchnorm" output_port_id="conv_6_dw_batchnorm" />
+		<IR name="conv_6_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_6_dw_relu" output_port_id="conv_6_dw_relu" />
+		<IR name="conv_6_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_6_batchnorm" output_port_id="conv_6_batchnorm" />
+		<IR name="conv_6_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_6_relu" output_port_id="conv_6_relu" />
+		<IR name="conv_6_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_c1_red_conv_bn" output_port_id="rf_c1_red_conv_bn" />
+		<IR name="rf_c1_red_conv_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c1_red_conv_relu" output_port_id="rf_c1_red_conv_relu" />
+		<IR name="rf_c1_red_conv_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14120" output_port_id="conv_7_dw_conv2d" />
+		<IR name="Multiply_14120" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_7_dw_batchnorm" output_port_id="conv_7_dw_batchnorm" />
+		<IR name="conv_7_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_7_dw_relu" output_port_id="conv_7_dw_relu" />
+		<IR name="conv_7_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_7_batchnorm" output_port_id="conv_7_batchnorm" />
+		<IR name="conv_7_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_7_relu" output_port_id="conv_7_relu" />
+		<IR name="conv_7_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14134" output_port_id="conv_8_dw_conv2d" />
+		<IR name="Multiply_14134" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_8_dw_batchnorm" output_port_id="conv_8_dw_batchnorm" />
+		<IR name="conv_8_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_8_dw_relu" output_port_id="conv_8_dw_relu" />
+		<IR name="conv_8_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_8_batchnorm" output_port_id="conv_8_batchnorm" />
+		<IR name="conv_8_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_8_relu" output_port_id="conv_8_relu" />
+		<IR name="conv_8_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14148" output_port_id="conv_9_dw_conv2d" />
+		<IR name="Multiply_14148" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_9_dw_batchnorm" output_port_id="conv_9_dw_batchnorm" />
+		<IR name="conv_9_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_9_dw_relu" output_port_id="conv_9_dw_relu" />
+		<IR name="conv_9_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_9_batchnorm" output_port_id="conv_9_batchnorm" />
+		<IR name="conv_9_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_9_relu" output_port_id="conv_9_relu" />
+		<IR name="conv_9_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14162" output_port_id="conv_10_dw_conv2d" />
+		<IR name="Multiply_14162" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_10_dw_batchnorm" output_port_id="conv_10_dw_batchnorm" />
+		<IR name="conv_10_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_10_dw_relu" output_port_id="conv_10_dw_relu" />
+		<IR name="conv_10_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_10_batchnorm" output_port_id="conv_10_batchnorm" />
+		<IR name="conv_10_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_10_relu" output_port_id="conv_10_relu" />
+		<IR name="conv_10_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14176" output_port_id="conv_11_dw_conv2d" />
+		<IR name="Multiply_14176" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_11_dw_batchnorm" output_port_id="conv_11_dw_batchnorm" />
+		<IR name="conv_11_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_11_dw_relu" output_port_id="conv_11_dw_relu" />
+		<IR name="conv_11_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_11_batchnorm" output_port_id="conv_11_batchnorm" />
+		<IR name="conv_11_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_11_relu" output_port_id="conv_11_relu" />
+		<IR name="conv_11_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14190" output_port_id="conv_12_dw_conv2d" />
+		<IR name="Multiply_14190" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_12_dw_batchnorm" output_port_id="conv_12_dw_batchnorm" />
+		<IR name="conv_12_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_12_dw_relu" output_port_id="conv_12_dw_relu" />
+		<IR name="conv_12_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_12_batchnorm" output_port_id="conv_12_batchnorm" />
+		<IR name="conv_12_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_12_relu" output_port_id="conv_12_relu" />
+		<IR name="conv_12_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_c2_lateral_bn" output_port_id="rf_c2_lateral_bn" />
+		<IR name="rf_c2_lateral_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c2_lateral_relu" output_port_id="rf_c2_lateral_relu" />
+		<IR name="rf_c2_lateral_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14214" output_port_id="conv_13_dw_conv2d" />
+		<IR name="Multiply_14214" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_13_dw_batchnorm" output_port_id="conv_13_dw_batchnorm" />
+		<IR name="conv_13_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_13_dw_relu" output_port_id="conv_13_dw_relu" />
+		<IR name="conv_13_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_13_batchnorm" output_port_id="conv_13_batchnorm" />
+		<IR name="conv_13_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_13_relu" output_port_id="conv_13_relu" />
+		<IR name="conv_13_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Multiply_14228" output_port_id="conv_14_dw_conv2d" />
+		<IR name="Multiply_14228" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_14_dw_batchnorm" output_port_id="conv_14_dw_batchnorm" />
+		<IR name="conv_14_dw_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_14_dw_relu" output_port_id="conv_14_dw_relu" />
+		<IR name="conv_14_dw_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_14_batchnorm" output_port_id="conv_14_batchnorm" />
+		<IR name="conv_14_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_14_relu" output_port_id="conv_14_relu" />
+		<IR name="conv_14_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv_final_batchnorm" output_port_id="conv_final_batchnorm" />
+		<IR name="conv_final_batchnorm" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv_final_relu" output_port_id="conv_final_relu" />
+		<IR name="conv_final_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_c3_lateral_bn" output_port_id="rf_c3_lateral_bn" />
+		<IR name="rf_c3_lateral_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c3_lateral_relu" output_port_id="rf_c3_lateral_relu" />
+		<IR name="rf_c3_lateral_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_c3_upsamplingscale" output_port_id="rf_c3_upsamplingscale" />
+		<IR name="rf_c3_upsamplingscale" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rf_c3_upsampling" output_port_id="rf_c3_upsampling" />
+		<IR name="rf_c3_upsampling" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="crop0__starts" output_port_id="crop0__starts" />
+		<IR name="crop0__starts" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rf_c2_lateral_relu__shape" output_port_id="rf_c2_lateral_relu__shape" />
+		<IR name="rf_c2_lateral_relu__shape" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="crop0" output_port_id="crop0" />
+		<IR name="crop0" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="_plus0" output_port_id="_plus0" />
+		<IR name="_plus0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c2_aggr_bn" output_port_id="rf_c2_aggr_bn" />
+		<IR name="rf_c2_aggr_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c2_aggr_relu" output_port_id="rf_c2_aggr_relu" />
+		<IR name="rf_c2_aggr_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_c2_upsamplingscale" output_port_id="rf_c2_upsamplingscale" />
+		<IR name="rf_c2_upsamplingscale" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rf_c2_upsampling" output_port_id="rf_c2_upsampling" />
+		<IR name="rf_c2_upsampling" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="crop1__starts" output_port_id="crop1__starts" />
+		<IR name="crop1__starts" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rf_c1_red_conv_relu__shape" output_port_id="rf_c1_red_conv_relu__shape" />
+		<IR name="rf_c1_red_conv_relu__shape" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="crop1" output_port_id="crop1" />
+		<IR name="crop1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="_plus1" output_port_id="_plus1" />
+		<IR name="_plus1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c1_aggr_bn" output_port_id="rf_c1_aggr_bn" />
+		<IR name="rf_c1_aggr_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_c1_aggr_relu" output_port_id="rf_c1_aggr_relu" />
+		<IR name="rf_c1_aggr_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_conv1_bn" output_port_id="rf_head_stride8_conv1_bn" />
+		<IR name="rf_head_stride8_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_context_conv1_bn" output_port_id="rf_head_stride8_context_conv1_bn" />
+		<IR name="rf_head_stride8_context_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_context_conv1_relu" output_port_id="rf_head_stride8_context_conv1_relu" />
+		<IR name="rf_head_stride8_context_conv1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_context_conv2_bn" output_port_id="rf_head_stride8_context_conv2_bn" />
+		<IR name="rf_head_stride8_context_conv2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_context_conv3_1_bn" output_port_id="rf_head_stride8_context_conv3_1_bn" />
+		<IR name="rf_head_stride8_context_conv3_1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_context_conv3_1_relu" output_port_id="rf_head_stride8_context_conv3_1_relu" />
+		<IR name="rf_head_stride8_context_conv3_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_context_conv3_2_bn" output_port_id="rf_head_stride8_context_conv3_2_bn" />
+		<IR name="rf_head_stride8_context_conv3_2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_concat" output_port_id="rf_head_stride8_concat" />
+		<IR name="rf_head_stride8_concat" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="rf_head_stride8_concat_relu" output_port_id="rf_head_stride8_concat_relu" />
+		<IR name="rf_head_stride8_concat_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride8_weight" output_port_id="face_rpn_landmark_pred_stride8_weight" />
+		<IR name="face_rpn_landmark_pred_stride8_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride8" output_port_id="face_rpn_landmark_pred_stride8" />
+		<IR name="face_rpn_landmark_pred_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride8_weight" output_port_id="face_rpn_bbox_pred_stride8_weight" />
+		<IR name="face_rpn_bbox_pred_stride8_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride8" output_port_id="face_rpn_bbox_pred_stride8" />
+		<IR name="face_rpn_bbox_pred_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride8_weight" output_port_id="face_rpn_cls_score_stride8_weight" />
+		<IR name="face_rpn_cls_score_stride8_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride8" output_port_id="face_rpn_cls_score_stride8" />
+		<IR name="face_rpn_cls_score_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor429" output_port_id="reshape_attr_tensor429" />
+		<IR name="reshape_attr_tensor429" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_reshape_stride8" output_port_id="face_rpn_cls_score_reshape_stride8" />
+		<IR name="face_rpn_cls_score_reshape_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride8_tr1" output_port_id="face_rpn_cls_prob_stride8_tr1" />
+		<IR name="face_rpn_cls_prob_stride8_tr1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride8" output_port_id="face_rpn_cls_prob_stride8" />
+		<IR name="face_rpn_cls_prob_stride8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride8_tr2" output_port_id="face_rpn_cls_prob_stride8_tr2" />
+		<IR name="face_rpn_cls_prob_stride8_tr2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor431" output_port_id="reshape_attr_tensor431" />
+		<IR name="reshape_attr_tensor431" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_reshape_stride8" output_port_id="face_rpn_cls_prob_reshape_stride8" />
+		<IR name="face_rpn_cls_prob_reshape_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_conv1_bn" output_port_id="rf_head_stride16_conv1_bn" />
+		<IR name="rf_head_stride16_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_context_conv1_bn" output_port_id="rf_head_stride16_context_conv1_bn" />
+		<IR name="rf_head_stride16_context_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_context_conv1_relu" output_port_id="rf_head_stride16_context_conv1_relu" />
+		<IR name="rf_head_stride16_context_conv1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_context_conv2_bn" output_port_id="rf_head_stride16_context_conv2_bn" />
+		<IR name="rf_head_stride16_context_conv2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_context_conv3_1_bn" output_port_id="rf_head_stride16_context_conv3_1_bn" />
+		<IR name="rf_head_stride16_context_conv3_1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_context_conv3_1_relu" output_port_id="rf_head_stride16_context_conv3_1_relu" />
+		<IR name="rf_head_stride16_context_conv3_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_context_conv3_2_bn" output_port_id="rf_head_stride16_context_conv3_2_bn" />
+		<IR name="rf_head_stride16_context_conv3_2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_concat" output_port_id="rf_head_stride16_concat" />
+		<IR name="rf_head_stride16_concat" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="rf_head_stride16_concat_relu" output_port_id="rf_head_stride16_concat_relu" />
+		<IR name="rf_head_stride16_concat_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride16_weight" output_port_id="face_rpn_landmark_pred_stride16_weight" />
+		<IR name="face_rpn_landmark_pred_stride16_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride16" output_port_id="face_rpn_landmark_pred_stride16" />
+		<IR name="face_rpn_landmark_pred_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride16_weight" output_port_id="face_rpn_bbox_pred_stride16_weight" />
+		<IR name="face_rpn_bbox_pred_stride16_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride16" output_port_id="face_rpn_bbox_pred_stride16" />
+		<IR name="face_rpn_bbox_pred_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride16_weight" output_port_id="face_rpn_cls_score_stride16_weight" />
+		<IR name="face_rpn_cls_score_stride16_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride16" output_port_id="face_rpn_cls_score_stride16" />
+		<IR name="face_rpn_cls_score_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor352" output_port_id="reshape_attr_tensor352" />
+		<IR name="reshape_attr_tensor352" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_reshape_stride16" output_port_id="face_rpn_cls_score_reshape_stride16" />
+		<IR name="face_rpn_cls_score_reshape_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride16_tr1" output_port_id="face_rpn_cls_prob_stride16_tr1" />
+		<IR name="face_rpn_cls_prob_stride16_tr1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride16" output_port_id="face_rpn_cls_prob_stride16" />
+		<IR name="face_rpn_cls_prob_stride16" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride16_tr2" output_port_id="face_rpn_cls_prob_stride16_tr2" />
+		<IR name="face_rpn_cls_prob_stride16_tr2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor354" output_port_id="reshape_attr_tensor354" />
+		<IR name="reshape_attr_tensor354" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_reshape_stride16" output_port_id="face_rpn_cls_prob_reshape_stride16" />
+		<IR name="face_rpn_cls_prob_reshape_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_conv1_bn" output_port_id="rf_head_stride32_conv1_bn" />
+		<IR name="rf_head_stride32_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_context_conv1_bn" output_port_id="rf_head_stride32_context_conv1_bn" />
+		<IR name="rf_head_stride32_context_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_context_conv1_relu" output_port_id="rf_head_stride32_context_conv1_relu" />
+		<IR name="rf_head_stride32_context_conv1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_context_conv2_bn" output_port_id="rf_head_stride32_context_conv2_bn" />
+		<IR name="rf_head_stride32_context_conv2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_context_conv3_1_bn" output_port_id="rf_head_stride32_context_conv3_1_bn" />
+		<IR name="rf_head_stride32_context_conv3_1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_context_conv3_1_relu" output_port_id="rf_head_stride32_context_conv3_1_relu" />
+		<IR name="rf_head_stride32_context_conv3_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_context_conv3_2_bn" output_port_id="rf_head_stride32_context_conv3_2_bn" />
+		<IR name="rf_head_stride32_context_conv3_2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_concat" output_port_id="rf_head_stride32_concat" />
+		<IR name="rf_head_stride32_concat" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="rf_head_stride32_concat_relu" output_port_id="rf_head_stride32_concat_relu" />
+		<IR name="rf_head_stride32_concat_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride32_weight" output_port_id="face_rpn_landmark_pred_stride32_weight" />
+		<IR name="face_rpn_landmark_pred_stride32_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride32" output_port_id="face_rpn_landmark_pred_stride32" />
+		<IR name="face_rpn_landmark_pred_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride32_weight" output_port_id="face_rpn_bbox_pred_stride32_weight" />
+		<IR name="face_rpn_bbox_pred_stride32_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride32" output_port_id="face_rpn_bbox_pred_stride32" />
+		<IR name="face_rpn_bbox_pred_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride32_weight" output_port_id="face_rpn_cls_score_stride32_weight" />
+		<IR name="face_rpn_cls_score_stride32_weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride32" output_port_id="face_rpn_cls_score_stride32" />
+		<IR name="face_rpn_cls_score_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor275" output_port_id="reshape_attr_tensor275" />
+		<IR name="reshape_attr_tensor275" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_reshape_stride32" output_port_id="face_rpn_cls_score_reshape_stride32" />
+		<IR name="face_rpn_cls_score_reshape_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride32_tr1" output_port_id="face_rpn_cls_prob_stride32_tr1" />
+		<IR name="face_rpn_cls_prob_stride32_tr1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride32" output_port_id="face_rpn_cls_prob_stride32" />
+		<IR name="face_rpn_cls_prob_stride32" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride32_tr2" output_port_id="face_rpn_cls_prob_stride32_tr2" />
+		<IR name="face_rpn_cls_prob_stride32_tr2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor277" output_port_id="reshape_attr_tensor277" />
+		<IR name="reshape_attr_tensor277" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_reshape_stride32" output_port_id="face_rpn_cls_prob_reshape_stride32" />
+		<IR name="face_rpn_cls_prob_reshape_stride32" output_port_id="2" />
+	</map>
+</mapping>

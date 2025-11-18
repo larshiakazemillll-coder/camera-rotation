@@ -1,6 +1,7 @@
 <p align="center">
   <img src="ChatGPT Image Nov 18, 2025, 02_05_34 PM.png" width="500" />
 </p>
+
 # 🎭 AI-Powered PTZ Face Recognition & Tracking System 🤖
 
 <div align="center">

@@ -81,11 +81,11 @@ pip install scikit-image
 
 ```python
 # Update these in main() function
-DAHUA_IP = "192.168.7.108"        # Your camera IP
+DAHUA_IP = "192.168.7.1"        # Your camera IP
 PTZ_USERNAME = "admin"            # Camera login
 PTZ_PASSWORD = "Aa123456!"        # Camera password
 DB_IP = "192.168.7.40:80"         # Face database API
-RTSP_URL = "rtsp://admin:Aa123456!@192.168.7.108:554/cam/realmonitor?channel=1&subtype=0"
+RTSP_URL = "rtsp://"
 ```
 
 ### Run the System 🏃‍♂️
